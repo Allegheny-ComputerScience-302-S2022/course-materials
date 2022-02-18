@@ -61,7 +61,10 @@
     <script>
       $(document).ready(function(){
         var text;
-        $.get('text/readme.md',function(response){
+        $.get(
+          'https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/README.md',
+          function(response)
+        {
           text = response;
         });
         console.log(text);
