@@ -1,3 +1,5 @@
+// BINDINGS
+
 // Make modals draggable
 $(".syllabus-gui-window").draggable({
   cursor: "move",
@@ -44,4 +46,15 @@ $(document).on('click',function(evt){
   if ($(evt.target).closest(".syllabus-icon-grid-entry").length == 0) {
     $('.syllabus-icon-grid-entry-text').removeClass('syllabus-icon-grid-entry-selected');
   }
+});
+
+// REQUESTS
+var remark = new remarkable.Remarkable();
+
+$.ajax({
+    url: "https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/README.md",
+    success: function(data){
+      var elem = $('#syllabus-document-window').find('.syllabus-gui-window-content');
+      $(elem).html(remark.render(data));
+    }
 });
