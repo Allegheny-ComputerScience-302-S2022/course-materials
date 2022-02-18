@@ -58,22 +58,6 @@
     </span>
   </div>
   <div class = "syllabus-gui-window-content">
-    <script>
-      $(document).ready(function(){
-        var text;
-        $.get(
-          'https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/README.md',
-          function(response)
-        {
-          text = response;
-        });
-        console.log(text);
-        var remark = new remarkable.Remarkable();
-        var md = remark.render(text);
-        var elem = $('#syllabus-document-window').find('.syllabus-gui-window-content');
-        $(elem).html(md);
-      });
-    </script>
   </div>
 </div>
 <!-- MODALS -->
@@ -81,4 +65,20 @@
 </body>
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
   <script src="script/ui.js"></script>
+  <script>
+    $(document).ready(function(){
+      var text;
+      $.get(
+        'https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/README.md',
+        function(response)
+      {
+        text = response;
+      });
+      console.log(text);
+      var remark = new remarkable.Remarkable();
+      var md = remark.render(text);
+      var elem = $('#syllabus-document-window').find('.syllabus-gui-window-content');
+      $(elem).html(md);
+    });
+  </script>
 </html>
