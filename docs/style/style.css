@@ -12,12 +12,12 @@ body {
 }
 .syllabus-gui-window{
   width: 50%;
-  height: 50%;  
+  height: auto;  
 }
 .syllabus-gui-window-title{
   font-family: lores-15-bold-alt-oakland, fixed-width;
   width: 100%;
-  height: 10%;
+  height: 5%;
   color: #fff;
   background-color: #002144;;
   border: 5px solid #fff;
@@ -46,8 +46,10 @@ body {
   grid-gap: 10px;
   padding: 10px;
   width: 50%;
-  margin: auto;
-  margin-top: 25%;
+  height: 50%;
+  margin: auto auto;
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
 }
 #syllabus-icon-grid > div{
   padding: 20px 0;
@@ -58,6 +60,9 @@ body {
 }
 .syllabus-icon-grid-logo {
   grid-column: 1 / 4;
+}
+.syllabus-icon-grid-logo img{
+  max-width: 150px;
 }
 .syllabus-icon-grid-entry{
   list-style: none;
@@ -70,4 +75,8 @@ body {
   padding: 5px;
   color: #fff;
   border: #002144 dotted 2px;
+}
+.syllabus-icon-grid-entry-selected {
+  background-color: #00a9e7;
+  border: dotted 2px #fff;
 }
