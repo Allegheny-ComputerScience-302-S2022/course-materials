@@ -48,6 +48,13 @@ $(document).on('click',function(evt){
   }
 });
 
+// Change z-index of selected windows
+$(".syllabus-gui-window").on("click",function(){
+  var elem = $(this);
+  $(this).css("z-index","100");
+  $(".syllabus-gui-window").not(elem).css("z-index","10");
+});
+
 // REQUESTS
 var remark = new remarkable.Remarkable();
 

@@ -2,6 +2,20 @@ body {
   overflow-x: hidden;
   overflow-y: hidden;
 }
+
+.syllabus-gui-window-content::-webkit-scrollbar{
+  width: 1em;
+  height: 100%;
+}
+
+.syllabus-gui-window-content::-webkit-scrollbar-track{
+
+}
+
+.syllabus-gui-window-content::-webkit-scrollbar-thumb{    
+  background: #222;
+}
+
 #syllabus-bg-container{
   background-color: #002144;
   width: 100%;
@@ -9,22 +23,26 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  font-family: lores-21-serif, sans-serif;
 }
 .syllabus-gui-window{
   width: 50%;
   height: auto;  
   resize: both;
+  max-height: 70%;
   overflow: auto;
+  position: absolute;
 }
 .syllabus-gui-window-title{
   font-family: lores-15-bold-alt-oakland, fixed-width;
-  width: 100%;
+  width: inherit;
   max-height: 40px;
   min-height: 40px;
   color: #fff;
   background-color: #002144;;
   border: 5px solid #fff;
   padding: 5px;
+  position: fixed;
 }
 .syllabus-gui-window-title-text{
   float: left;
@@ -38,11 +56,14 @@ body {
   cursor: pointer;
 }
 .syllabus-gui-window-content{
-  font-family: "Tahoma";
   background-color: #fff;
   color: #000;
   padding: 10px;
   resize: both;
+  overflow-y: scroll;
+  padding-top:40px;
+  scrollbar-width: thick;
+  scrollbar-color: gray gray;
 }
 #syllabus-icon-grid{
   display: grid;
