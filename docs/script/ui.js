@@ -41,7 +41,6 @@ $(".syllabus-icon-grid-entry").on('click',function(){
 
 // Clicking anywhere not on an entry should release all entries
 $(document).on('click',function(evt){
-  console.log($(evt.target).closest(".syllabus-icon-grid-entry"));
   if ($(evt.target).closest(".syllabus-icon-grid-entry").length == 0) {
     $('.syllabus-icon-grid-entry-text').removeClass('syllabus-icon-grid-entry-selected');
   }
