@@ -1,6 +1,73 @@
-#302-bg-container{
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#syllabus-bg-container{
   background-color: #002144;
   width: 100%;
   height:100%;
   position: absolute;
+  top: 0;
+  left: 0;
+}
+.syllabus-gui-window{
+  width: 50%;
+  height: 50%;  
+}
+.syllabus-gui-window-title{
+  font-family: lores-15-bold-alt-oakland, fixed-width;
+  width: 100%;
+  height: 10%;
+  color: #fff;
+  background-color: #002144;;
+  border: 5px solid #fff;
+  padding: 5px;
+}
+.syllabus-gui-window-title-text{
+  float: left;
+}
+.syllabus-gui-window-title-controls{
+  float:right;
+  margin-top: -17px;
+  font-size: 25pt;
+}
+.syllabus-gui-window-title-controls:hover{
+  cursor: pointer;
+}
+.syllabus-gui-window-content{
+  font-family: "Tahoma";
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+}
+#syllabus-icon-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+  margin-top: 25%;
+}
+#syllabus-icon-grid > div{
+  padding: 20px 0;
+  margin: auto;
+}
+#syllabus-icon-grid > div:hover {
+  cursor: pointer;
+}
+.syllabus-icon-grid-logo {
+  grid-column: 1 / 4;
+}
+.syllabus-icon-grid-entry{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.syllabus-icon-grid-entry-text{
+  margin-top: 2%;
+  padding: 5px;
+  color: #fff;
+  border: #002144 dotted 2px;
 }
