@@ -80,3 +80,11 @@ body {
   background-color: #00a9e7;
   border: dotted 2px #fff;
 }
+@media only screen and (max-width: 768px) {
+  #syllabus-icon-grid{
+    grid-template-columns: auto;
+  }
+  .syllabus-icon-grid-logo{
+    grid-column: 1;
+  }
+}
