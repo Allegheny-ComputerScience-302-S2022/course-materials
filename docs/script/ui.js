@@ -1,3 +1,18 @@
+// CONSTANTS
+
+const deviceType = () => {
+    const ua = navigator.userAgent;
+    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+        return "tablet";
+    }
+    else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+        return "mobile";
+    } else if (window.screen.availWidth < 1024) {
+        return "mobile";
+    }
+    return "desktop";
+};
+
 // BINDINGS
 
 // Make modals draggable
@@ -20,13 +35,14 @@ $(".syllabus-icon-grid-entry").on('click',function(){
 
 // Double click should launch item actions
 var delay = 0;
+var is_mobile = 
 $(".syllabus-icon-grid-entry").on('click',function(){
   var action = $(this).parent().attr('action-item');
-  if (delay == 0) {
+  if (delay == 0 && deviceType() != "mobile") {
     // Integrate with other first click option?
     delay = new Date().getTime();
   } else {
-    if(((new Date().getTime()) - delay) < 500){
+    if(((new Date().getTime()) - delay) < 500 || deviceType() == "mobile"){
       // Is double click
       if (action == "github") {
         window.open("https://github.com/Allegheny-ComputerScience-302-S2022",'_blank');

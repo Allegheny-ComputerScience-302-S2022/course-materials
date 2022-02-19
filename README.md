@@ -67,7 +67,11 @@ These platforms are for our use only. To use them, you'll need to register and b
 
 By the end of this course, you will be able to:
 
-* 
+* Express basic fluency in HTML5, CSS, Javscript, and nodeJS markup/programming languages
+* Distinguish between and develop for the various layers of the web "stack"
+* Use and develop APIs (application programmer interfaces)
+* Understand and deploy strategies which build accessible and responsive web content
+* Recognize and implement basic design "patterns" used to create effective user interfaces
 
 ### Governance and evaluation
 
