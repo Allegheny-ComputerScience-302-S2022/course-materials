@@ -19,13 +19,35 @@ body {
 }
 
 td, th {
-  padding-right: 3%;
+  padding: 1%;
   width: 25%;
 }
 
+td {
+  line-height: 1.5rem;
+}
+
+th {
+  background-color: #002144;
+  color: #feda48;
+}
+
+tr:nth-child(1n){
+  background: #007bc2;
+  color: #feda48;
+}
+
 tr:nth-child(2n){
-  background: #ddd;
-  color: #222;
+  background: #002144;
+  color: #feda48;
+}
+
+td:nth-child(3n){
+  font-style: italic;
+}
+
+td:nth-child(1){
+  font-size: 125%;
 }
 
 .syllabus-gui-window-content::-webkit-scrollbar{
@@ -62,6 +84,30 @@ tr:nth-child(2n){
   min-height: 250px;
   z-index: 10;
 }
+
+.syllabus-gui-window a {
+  color: #feda48;
+  border-bottom: #feda48 dashed 2px;
+  text-decoration: none;
+}
+.syllabus-gui-window a:hover { 
+  color: #feda48;
+  text-decoration: none;
+  border-bottom: none;
+}
+.syllabus-gui-window a:visited {
+  color: #feda48;
+}
+
+#syllabus-contract-window a{
+  color: blue;
+  border-bottom: blue dashed 2px;
+}
+
+#syllabus-contract-window a:visited{
+  color: blue;
+}
+
 .syllabus-gui-window-title{
   font-family: lores-15-bold-alt-oakland, fixed-width;
   width: inherit;
@@ -244,6 +290,4 @@ tr:nth-child(2n){
   .syllabus-gui-free-range-icon{
     display: none;
   }
-}
-
 }
