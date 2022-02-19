@@ -81,3 +81,11 @@ $.ajax({
       $(elem).html(remark.render(data));
     }
 });
+
+$.ajax({
+    url: "https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/docs/schedule.md",
+    success: function(data) {
+      var elem = $('#syllabus-schedule-window').find('.syllabus-gui-window-content');
+      $(elem).html(remark.render(data));
+    }
+});
