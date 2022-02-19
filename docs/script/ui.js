@@ -22,6 +22,16 @@ $(".syllabus-gui-window").draggable({
   handle: ".syllabus-gui-window-title"
 });
 
+$("#course-trash").draggable({
+  cursor: "move",
+  handle: ".syllabus-icon-grid-entry"
+});
+
+$("#course-tos-bug").draggable({
+  cursor: "move",
+  handle: ".syllabus-icon-grid-entry"
+});
+
 // Activate window closure
 $(".syllabus-gui-window-title-controls").on('click',function(){
   $(this).parent().parent().css('display','none');
@@ -48,6 +58,8 @@ $(".syllabus-icon-grid-entry").on('click',function(){
       // Is double click
       if (action == "github") {
         window.open("https://github.com/Allegheny-ComputerScience-302-S2022",'_blank');
+      } else if (action == "revise") {
+        window.open("https://github.com/Allegheny-ComputerScience-302-S2022/course-materials",'_blank');
       } else {
         var elem = "#syllabus-"+action+"-window";
         $(elem).css('display','block');
@@ -73,6 +85,13 @@ $(".syllabus-gui-window").on("click",function(){
   $(".syllabus-gui-window").not(elem).css("z-index","10");
 });
 
+// Change z-index of draggable icons
+$(".syllabus-gui-free-range-icon").on("click",function(){
+  var elem = $(this);
+  $(this).css("z-index","9");
+  $(".syllabus-gui-free-range-icon").not(elem).css("z-index","8");
+});
+
 // REQUESTS
 var remark = new remarkable.Remarkable();
 
@@ -91,3 +110,12 @@ $.ajax({
       $(elem).html(remark.render(data));
     }
 });
+
+$.ajax({
+    url: "https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/CODE_OF_CONDUCT.md",
+    success: function(data) {
+      var elem = $('#syllabus-contract-window').find('.syllabus-gui-window-content');
+      $(elem).html(remark.render(data));
+    }
+});
+

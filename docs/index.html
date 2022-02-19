@@ -9,7 +9,19 @@
 </head>
 <body>
 <div id = "syllabus-bg-container">
-  <div id = "syllabus-icon-grid">
+  <div id = "course-trash" action-item="trash" class = "syllabus-gui-free-range-icon">
+    <ul class = "syllabus-icon-grid-entry">
+      <li><img src = "img/trash-bin.png">
+      <li class = "syllabus-icon-grid-entry-text">Trash</li>
+    </ul>
+  </div>
+  <div action-item="revise" id = "course-tos-bug" class = "syllabus-gui-free-range-icon">
+    <ul class = "syllabus-icon-grid-entry">
+      <li><img src = "img/revision.png">
+      <li class = "syllabus-icon-grid-entry-text">CC-BY-SA 4.0</li>
+    </ul>
+  </div>
+  <section id = "syllabus-icon-grid">
     <div class = "syllabus-icon-grid-logo">
       <img src = "img/logo.png">
     </div>
@@ -31,7 +43,13 @@
         <li class = "syllabus-icon-grid-entry-text">Course GitHub</li>
       </ul>
     </div>
-  </div>
+    <div action-item="contract">
+      <ul class = "syllabus-icon-grid-entry">
+        <li><img src = "img/balance.png">
+        <li class = "syllabus-icon-grid-entry-text">Course Contract</li>
+      </ul>
+    </div>
+  </section>
 <!-- MODALS -->
 <div id = "syllabus-schedule-window" class = "syllabus-gui-window" style = "display: none;">
   <div class = "syllabus-gui-window-title">
@@ -43,7 +61,6 @@
     </span>
   </div>
   <div class = "syllabus-gui-window-content">
-    jewahfiewhfi
   </div>
 </div>
 <div id = "syllabus-document-window" class = "syllabus-gui-window" style = "display: none;">
@@ -58,8 +75,38 @@
   <div class = "syllabus-gui-window-content">
   </div>
 </div>
-<!-- MODALS -->
+<div id = "syllabus-contract-window" class = "syllabus-gui-window" style = "display: none;">
+  <div class = "syllabus-gui-window-title">
+    <span class = "syllabus-gui-window-title-text">
+      Grading Contract
+    </span>
+    <span class = "syllabus-gui-window-title-controls">
+      ×
+    </span>
+  </div>
+  <div class = "syllabus-gui-window-content">
+  </div>
 </div>
+<div id = "syllabus-trash-window" class = "syllabus-gui-window" style = "display: none;">
+  <div class = "syllabus-gui-window-title">
+    <span class = "syllabus-gui-window-title-text">
+      Luman's Trash
+    </span>
+    <span class = "syllabus-gui-window-title-controls">
+      ×
+    </span>
+  </div>
+  <div class = "syllabus-gui-window-content" style = "text-align: center;">>
+    <img src = "img/box.png" style = "margin: auto; height: 150px;">
+    <div>Empty :(...for now.</div>
+  </div>
+</div>
+<!-- MODALS -->
+<div style = "bottom: 0; right: 0; position: absolute; color: #fff; padding: 1%;">
+  ProfOS 22.02.19
+</div>
+</div>
+
 </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/2.0.1/remarkable.min.js" integrity="sha512-skYYbQHAuOTpeJTthhUH3flZohep8blA+qjZOY0VqmfXMDiYcWxu29F5UbxU4LxaIpGkRBk+3Qf8qaXfd9jngg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
