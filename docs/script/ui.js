@@ -1,16 +1,17 @@
 // CONSTANTS
 
 const deviceType = () => {
-    const ua = navigator.userAgent;
-    if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
-        return "tablet";
-    }
-    else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
-        return "mobile";
-    } else if (window.screen.availWidth < 1024) {
-        return "mobile";
-    }
-    return "desktop";
+  const ua = navigator.userAgent;
+  if (/(tablet|ipad|playbook|silk)|(android(?!.*mobi))/i.test(ua)) {
+    return "tablet";
+  }
+  else if (/Mobile|Android|iP(hone|od)|IEMobile|BlackBerry|Kindle|Silk-Accelerated|(hpw|web)OS|Opera M(obi|ini)/.test(ua)) {
+    return "mobile";
+  } else if (window.screen.availWidth < 1024) {
+    // Look, I just want to test this thing
+    return "mobile";
+  }
+  return "desktop";
 };
 
 // BINDINGS
@@ -34,6 +35,7 @@ $(".syllabus-icon-grid-entry").on('click',function(){
 });
 
 // Double click should launch item actions
+// Single click for mobile devices
 var delay = 0;
 var is_mobile = 
 $(".syllabus-icon-grid-entry").on('click',function(){
@@ -83,7 +85,7 @@ $.ajax({
 });
 
 $.ajax({
-    url: "https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/docs/schedule.md",
+    url: "https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/docs/text/schedule.md",
     success: function(data) {
       var elem = $('#syllabus-schedule-window').find('.syllabus-gui-window-content');
       $(elem).html(remark.render(data));
