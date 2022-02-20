@@ -83,6 +83,8 @@ td:nth-child(1){
   min-width: 250px;
   min-height: 250px;
   z-index: 10;
+  top: 5%;
+  left: 5%;
 }
 
 .syllabus-gui-window a {
