@@ -51,8 +51,9 @@ td:nth-child(1){
 }
 
 blockquote {
-  margin-left: 1rem 1rem;
-  border-left: blue solid 5px;
+    margin: 1rem 1rem;
+    border-left: blue solid 10px;
+    padding: 1rem;
 }
 
 .syllabus-gui-window-content::-webkit-scrollbar{
