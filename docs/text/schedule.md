@@ -4,7 +4,7 @@
 
 |Date                 |Topic                      |Assignment                      |Reading(s)                   |
 |:--------------------|:--------------------------|:-------------------------------|:----------------------------|
-|21 February          |Course configuration       |                                |                             |
+|21 - 23 February     |Course configuration       |                                |                             |
 |23 February          |Crash course: How the Internet works     |                  |                             |
 |25 February          |Crash course: the Web      |Setting up platforms; exploring web documents |[World Wide Web](http://info.cern.ch/hypertext/WWW/TheProject.html) |
 |28 Feburary - 4 March|HTML                       |The Terrible, Horrible, All Good, Wonderful Website |[The Geocities Gallery](https://geocities.restorativland.org/) |
@@ -23,16 +23,28 @@
 |Date                 |Topic                      |Assignment                      |Reading(s)                   |
 |:--------------------|:--------------------------|:-------------------------------|:----------------------------|
 |28 March - 1 April   |Javascript                 |                                |                             |
-|4 April - 8 April    |Javascript                 |                                |                             |
-|11 April - 15 April  |Crash course: "Front" vs. "Back" end |                      |                             |
-|18 April - 22 April  |node.js                    |                                |                             |
-|25 April - 29 April  |APIs                       |                                |                             |
+|4 - 8 April          |Javascript                 |                                |                             |
+|11 - 15 April        |Crash course: "Front" vs. "Back" end |                      |                             |
+|18 - 22 April        |node.js                    |                                |                             |
+|25 - 29 April        |APIs                       |                                |                             |
 |                     |                           |Project assigned                |                             |
+
+### General resources
+
+| URL |
+|:----|
+|     |
 
 ## Web 3.0
 
 |Date                 |Topic                      |Assignment                      |Reading(s)                   |
 |:--------------------|:--------------------------|:-------------------------------|:----------------------------|
-|2 May - 6 May        |Crash course: Decentralized web |                           |                             |
-|11 May - 13 May      |Project work time          |                                |                             |
+|2 - 6 May            |Crash course: Decentralized web |                           |                             |
+|11 - 13 May          |Project work time          |                                |                             |
 |18 May               |                           |Project due                     |                             |
+
+### General resources
+
+| URL |
+|:----|
+|     |
