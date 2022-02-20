@@ -7,17 +7,18 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" integrity="sha384-ejwKkLla8gPP8t2u0eQyL0Q/4ItcnyveF505U0NIobD/SMsNyXrLti6CWaD0L52l" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.typekit.net/sgy2rsb.css">
+  <base target="_blank">
   <title>CMPSC 302: Web Development, Allegheny College, Spring 2022</title>
 </head>
 <body>
 <div id = "syllabus-bg-container">
-  <div id = "course-trash" action-item="trash" class = "syllabus-gui-free-range-icon">
+  <div id = "course-trash" data-action-item="trash" class = "syllabus-gui-free-range-icon">
     <ul class = "syllabus-icon-grid-entry">
       <li><img src = "img/trash-bin.png" alt = "Trash can">
       <li class = "syllabus-icon-grid-entry-text">Trash</li>
     </ul>
   </div>
-  <div action-item="revise" id = "course-tos-bug" class = "syllabus-gui-free-range-icon">
+  <div data-action-item="revise" id = "course-tos-bug" class = "syllabus-gui-free-range-icon">
     <ul class = "syllabus-icon-grid-entry">
       <li><img src = "img/revision.png" alt = "Paper with icons indicating revisions">
       <li class = "syllabus-icon-grid-entry-text">CC-BY-SA 4.0</li>
@@ -27,25 +28,25 @@
       <div class = "syllabus-icon-grid-logo">
         <img src = "img/logo.png" alt = "Circular orb logo with an A on a starry field with lens flare">
       </div>
-      <div action-item="schedule">
+      <div data-action-item="schedule">
         <ul class = "syllabus-icon-grid-entry">
           <li><img src = "img/calendar.png" alt = "Calendar icon">
           <li class = "syllabus-icon-grid-entry-text">Class Calendar</li>
         </ul>
       </div>   
-      <div action-item="document">
+      <div data-action-item="document">
         <ul class = "syllabus-icon-grid-entry">
           <li><img src = "img/document.png" alt = "Document icon indicating two pieces of paper">
           <li class = "syllabus-icon-grid-entry-text">Syllabus</li>
         </ul>
       </div>
-      <div action-item="github">
+      <div data-action-item="github">
         <ul class = "syllabus-icon-grid-entry">
           <li><img src = "img/github.png" alt = "GitHub Octocat logo">
           <li class = "syllabus-icon-grid-entry-text">Course GitHub</li>
         </ul>
       </div>
-      <div action-item="contract">
+      <div data-action-item="contract">
         <ul class = "syllabus-icon-grid-entry">
           <li><img src = "img/balance.png" alt = "Balance scales">
           <li class = "syllabus-icon-grid-entry-text">Course Contract</li>
@@ -124,6 +125,5 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
 </body>
-<base target="_blank">
 <script defer src="script/ui.js"></script>
 </html>

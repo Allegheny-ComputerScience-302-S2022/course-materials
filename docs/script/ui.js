@@ -48,7 +48,7 @@ $(".syllabus-icon-grid-entry").on('click',function(){
 // Single click for mobile devices
 var delay = 0;
 $(".syllabus-icon-grid-entry").on('click',function(){
-  var action = $(this).parent().attr('action-item');
+  var action = $(this).parent().attr('data-action-item');
   if (delay == 0 && deviceType() != "mobile") {
     // Integrate with other first click option?
     delay = new Date().getTime();
