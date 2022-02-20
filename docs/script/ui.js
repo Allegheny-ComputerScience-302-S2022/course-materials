@@ -47,7 +47,6 @@ $(".syllabus-icon-grid-entry").on('click',function(){
 // Double click should launch item actions
 // Single click for mobile devices
 var delay = 0;
-var is_mobile = 
 $(".syllabus-icon-grid-entry").on('click',function(){
   var action = $(this).parent().attr('action-item');
   if (delay == 0 && deviceType() != "mobile") {
@@ -166,6 +165,7 @@ window.setTimeout(function(){
     
     if ( anchor.startsWith("#") || anchor.endsWith(".md") ){
       links[i].href = "#";
+      links[i].target = "";
       $(links[i]).on('click',locs[anchor]);
     }
  
