@@ -144,11 +144,14 @@ $.ajax({
       
       var links = $(document).find('a');
       for(var i=0; i < links.length; i++){
+        
         var href = links[i].href;
-        if (href.startsWith("file://")){
-          var parts = href.split("/");
+        var parts = href.split("/")
+        var anchor = parts[parts.length - 1];
+        console.log(anchor);
+        if ( anchor.startsWith("index.html") || anchor.endsWith(".md") ){
           links[i].href = "#";
-          $(links[i]).on('click',locs[parts[parts.length-1]]);
+          $(links[i]).on('click',locs[anchor]);
         }
       }
     
