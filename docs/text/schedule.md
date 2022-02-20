@@ -14,6 +14,8 @@
 |[The Geocities Gallery](https://geocities.restorativland.org/) | | |  
 |14 - 18 March        |CSS                        |The Style Book                                     |
 |[CSS Zen Garden](http://www.csszengarden.com/) | | |
+|[Effective Visual Communication for Graphical User Interfaces](http://web.cs.wpi.edu/~matt/courses/cs563/talks/smartin/int_design.html) | | |
+|[Using Light, Color and Contrast Effectively in UI Design](https://usabilitypost.com/2008/08/14/using-light-color-and-contrast-effectively-in-ui-design/)    |
 
 ### General resources
 
