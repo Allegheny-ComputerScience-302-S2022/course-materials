@@ -181,7 +181,7 @@ locs = {
     $("#syllabus-schedule-window").attr('hidden', false);
     $("#syllabus-schedule-window").focus();
   },
-  "#office-hours": function(){
+  "office-hours.md": function(){
     $("#syllabus-office-hours-window").attr('hidden', false);
     $("#syllabus-office-hours-window").focus();
   }
