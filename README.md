@@ -123,7 +123,7 @@ The discipline of computer science, like many others, encourages its members to 
 
 Students who struggle to understand knowledge and skills defined in this course are encouraged to seek assistance from the course instructor and teaching assistants. To meet with me, consult my available office hours (above) and make an appointment.
 
-Historically, students who are successful in my courses visit and discuss course concepts with the instructor and Technical Leaders early and often. See [above for my office hours](#office-hours) or go to [this schedule for Technical Leaders' office hours](https://www.cs.allegheny.edu/teaching/technicalleaders/).
+Historically, students who are successful in my courses visit and discuss course concepts with the instructor and Technical Leaders early and often. See [above for my office hours](docs/office-hours.md) or go to [this schedule for Technical Leaders' office hours](https://www.cs.allegheny.edu/teaching/technicalleaders/).
 
 #### Assistance outside of the course
 

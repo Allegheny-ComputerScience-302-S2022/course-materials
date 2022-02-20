@@ -62,6 +62,8 @@ $(".syllabus-icon-grid-entry").on('click',function(){
       } else {
         var elem = "#syllabus-"+action+"-window";
         $(elem).attr('hidden', false);
+        $(elem).css('top',Math.random() * 50 + "%");
+        $(elem).css('left',Math.random() * 50 + "%");
       }
     } else {
       // Is not yet double click
@@ -88,6 +90,8 @@ $(document).on('keypress', function(evt) {
     } else {
       var elem = "#syllabus-"+action+"-window";
       $(elem).attr('hidden', false);
+      $(elem).css('top',Math.random() * 50 + "%");
+      $(elem).css('left',Math.random() * 50 + "%");
     }
   }
 });
@@ -203,4 +207,4 @@ window.setTimeout(function(){
  
   }
   
-},200);
+},500);
