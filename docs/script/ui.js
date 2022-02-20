@@ -165,7 +165,7 @@ window.setTimeout(function(){
     
     if ( anchor.startsWith("#") || anchor.endsWith(".md") ){
       links[i].href = "#";
-      $(links[i]).removeAttr("target");
+      $(links[i]).attr('target','_self');
       $(links[i]).on('click',locs[anchor]);
     }
  
