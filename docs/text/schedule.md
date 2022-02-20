@@ -38,6 +38,7 @@
 | URL |
 |:----|
 |[Interactive JavaScript Cheat Sheet](https://htmlcheatsheet.com/js/) |
+|[HTML Colors](https://html-color.codes/) |
 |[Pokédex API](https://pokedevs.gitbook.io/pokedex/) |
 |[Place Kitten](https://placekitten.com/)            |
 
