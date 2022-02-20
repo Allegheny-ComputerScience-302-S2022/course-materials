@@ -2,14 +2,17 @@
 
 ## Web 1.0
 
-|Date                 |Topic                      |Assignment                      |Reading(s)                   |
-|:--------------------|:--------------------------|:-------------------------------|:----------------------------|
-|21 - 23 February     |Course configuration       |                                |                             |
-|23 February          |Crash course: How the Internet works     |                  |                             |
-|25 February          |Crash course: the Web      |Setting up platforms; exploring web documents |[World Wide Web](http://info.cern.ch/hypertext/WWW/TheProject.html) |
-|28 Feburary - 4 March|HTML                       |The Terrible, Horrible, All Good, Wonderful Website |[The Geocities Gallery](https://geocities.restorativland.org/) |
-|7 - 11 March         |HTML                       |The Form Letter                 |                             | 
-|14 - 18 March        |CSS                        |The Style Book                  |[CSS Zen Garden](http://www.csszengarden.com/) |
+|Date                 |Topic                      |Assignment                                    |
+|:--------------------|:--------------------------|:---------------------------------------------|
+|21 - 25 February     |Crash course: the Web      |Setting up platforms; exploring web documents |
+|[Submarine Cable Map](https://www.submarinecablemap.com/)                                       |
+|[Kazakhstan’s Internet Shutdown Offers Lessons for Russia-Ukraine Crisis](https://www.nytimes.com/2022/02/18/technology/kazakhstan-internet-russia-ukraine.html) |
+|[World Wide Web](http://info.cern.ch/hypertext/WWW/TheProject.html) |
+|28 Feburary - 4 March|HTML                       |The Terrible, Horrible, No Good, Wonderful Website |
+|7 - 11 March         |HTML                       |                                                   |
+|[The Geocities Gallery](https://geocities.restorativland.org/)                                       | 
+|14 - 18 March        |CSS                        |The Style Book                                     |
+|[CSS Zen Garden](http://www.csszengarden.com/)                                                       |
 
 ### General resources
 
@@ -39,7 +42,7 @@
 
 |Date                 |Topic                      |Assignment                      |Reading(s)                   |
 |:--------------------|:--------------------------|:-------------------------------|:----------------------------|
-|2 - 6 May            |Crash course: Decentralized web |                           |                             |
+|2 - 6 May            |Crash course:  the Decentralized Web |                      |                             |
 |11 - 13 May          |Project work time          |                                |                             |
 |18 May               |                           |Project due                     |                             |
 
