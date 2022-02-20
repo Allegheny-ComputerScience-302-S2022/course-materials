@@ -138,11 +138,15 @@ locs = {
     $("#syllabus-contract-window").css('display','block');
     $("#syllabus-contract-window").focus();
   },
+  "#Grading": function(){
+    $("#syllabus-contract-window").css('display','block');
+    $("#syllabus-contract-window").focus();
+  },
   "schedule.md": function(){
     $("#syllabus-schedule-window").css('display','block');
     $("#syllabus-schedule-window").focus();
   },
-  "index.html#office-hours": function(){
+  "#office-hours": function(){
     $("#syllabus-office-hours-window").css('display', 'block');
     $("#syllabus-office-hours-window").focus();
   }
