@@ -127,8 +127,7 @@ When using office hours:
 
 * Come in prepared with questions, a topic, or a clear objective
   * To achieve this, please add notes about expected topic(s) to a Google Calendar slot reservation (for instructor calendar)
-* Be prepared to recieve feedback, understanding that typically this typically means implementing more than trivial revisions to an assignment
-* Respect the time of other students (i.e. be mannerly and quick)
+* Be prepared to recieve feedback, understanding that this typically means implementing more than trivial revisions to an assignment
 * Have all assignments ready to discuss with the Professor
 * Not rely only on office hours for all solutions (i.e. work should be attempted first)
 
