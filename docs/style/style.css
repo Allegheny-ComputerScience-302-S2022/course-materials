@@ -187,7 +187,7 @@ td:nth-child(1){
   color: #fff;
   border: #002144 dotted 2px;
 }
-.syllabus-icon-grid-entry-selected {
+.syllabus-icon-grid-entry-text:focus, .syllabus-icon-grid-entry-selected {
   background-color: #00a9e7;
   border: dotted 2px #fff;
 }

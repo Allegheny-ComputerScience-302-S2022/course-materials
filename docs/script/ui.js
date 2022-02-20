@@ -70,6 +70,24 @@ $(".syllabus-icon-grid-entry").on('click',function(){
   }
 });
 
+$(document).on('keypress', function(evt) {
+  if (evt.keyCode == 13){
+    var target = $("#syllabus-icon-grid > div").find(".syllabus-icon-grid-entry-text:focus")[0];
+    var grandparent = $(target).parent().parent();
+    var action = grandparent.attr('data-action-item');
+    console.log(target + " means " + action);
+    // Is double click
+    if (action == "github") {
+      window.open("https://github.com/Allegheny-ComputerScience-302-S2022",'_blank');
+    } else if (action == "revise") {
+      window.open("https://github.com/Allegheny-ComputerScience-302-S2022/course-materials",'_blank');
+    } else {
+      var elem = "#syllabus-"+action+"-window";
+      $(elem).attr('hidden', false);
+    }
+  }
+});
+
 // Clicking anywhere not on an entry should release all entries
 $(document).on('click',function(evt){
   if ($(evt.target).closest(".syllabus-icon-grid-entry").length == 0) {
