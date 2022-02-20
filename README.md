@@ -93,7 +93,7 @@ This project offers students the opportunity to develop a realized version of an
 
 ### Course preparation
 
-I expect students to arrive to class prepared. Here, "prepared" means having completed reading assignments, compiled questions, and being ready to engage thoughtfully with course material. In order to assist students' preparedness efforts, I will provide a [schedule](docs/schedule.md) with assignments and will accompany all videos with a copy of any slides used in class proceedings or recorded media.
+I expect students to arrive to class prepared. Here, "prepared" means having completed reading assignments, compiled questions, and being ready to engage thoughtfully with course material. In order to assist students' preparedness efforts, I will provide a [schedule](https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/docs/text/schedule.md) with assignments and will accompany all videos with a copy of any slides used in class proceedings or recorded media.
 
 ### Allegheny College Statement of Community
 
@@ -123,7 +123,7 @@ The discipline of computer science, like many others, encourages its members to 
 
 Students who struggle to understand knowledge and skills defined in this course are encouraged to seek assistance from the course instructor and teaching assistants. To meet with me, consult my available office hours (above) and make an appointment.
 
-Historically, students who are successful in my courses visit and discuss course concepts with the instructor and Technical Leaders early and often. See [above for my office hours](docs/office-hours.md) or go to [this schedule for Technical Leaders' office hours](https://www.cs.allegheny.edu/teaching/technicalleaders/).
+Historically, students who are successful in my courses visit and discuss course concepts with the instructor and Technical Leaders early and often. See [above for my office hours](https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/docs/text/schedule.md) or go to [this schedule for Technical Leaders' office hours](https://www.cs.allegheny.edu/teaching/technicalleaders/).
 
 #### Assistance outside of the course
 
