@@ -112,6 +112,14 @@ $.ajax({
 });
 
 $.ajax({
+    url: "https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/docs/text/office-hours.md",
+    success: function(data) {
+      var elem = $('#syllabus-office-hours-window').find('.syllabus-gui-window-content');
+      $(elem).html(remark.render(data));
+    }
+});
+
+$.ajax({
     url: "https://raw.githubusercontent.com/Allegheny-ComputerScience-302-S2022/course-materials/main/CODE_OF_CONDUCT.md",
     success: function(data) {
       var elem = $('#syllabus-contract-window').find('.syllabus-gui-window-content');
@@ -128,7 +136,7 @@ $.ajax({
           $("#syllabus-schedule-window").css('display','block');
           $("#syllabus-schedule-window").focus();
         },
-        "#office-hours": function(){
+        "index.html#office-hours": function(){
           $("#syllabus-office-hours-window").css('display', 'block');
           $("#syllabus-office-hours-window").focus();
         }
@@ -139,20 +147,12 @@ $.ajax({
         var href = links[i].href;
         if (href.startsWith("file://")){
           var parts = href.split("/");
-          console.log(parts[-1]);
           links[i].href = "#";
           $(links[i]).on('click',locs[parts[parts.length-1]]);
         }
       }
     
     }
-});
-
-$(document).ready(function() {
-  var elem = $("syllabus-office-hours-window").find('.syllabus-gui-window-content');
-  $(elem).html(remark.render(
-    "|Day(s) of Week            |Time                ||--------------------------|--------------------||Monday                    |9:00 AM - 12:00 PM  ||Tuesday                   |9:00 AM - 12:00 PM  ||Wednesday                 |3:00 PM - 5:00 PM   ||Thursday                  |By appointment      ||Friday                    |9:00 AM - 10:00 AM; 12:00 PM - 1:30 PM |"
-  ));
 });
 
 var modified = document.lastModified;
