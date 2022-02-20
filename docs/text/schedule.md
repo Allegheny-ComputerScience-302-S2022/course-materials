@@ -12,6 +12,7 @@
 |28 Feburary - 4 March|HTML                       |The Terrible, Horrible, No Good, Wonderful Website |
 |7 - 11 March         |HTML                       |The Terrible, Horrible, No Good, Wonderful Website |
 |[The Geocities Gallery](https://geocities.restorativland.org/) | | |  
+|[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) | | |
 |14 - 18 March        |CSS                        |The Style Book                                     |
 |[CSS Zen Garden](http://www.csszengarden.com/) | | |
 |[Effective Visual Communication for Graphical User Interfaces](http://web.cs.wpi.edu/~matt/courses/cs563/talks/smartin/int_design.html) | | |
