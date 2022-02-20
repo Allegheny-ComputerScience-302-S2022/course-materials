@@ -90,10 +90,15 @@ $(document).on('keypress', function(evt) {
       $(elem).attr('hidden', false);
     }
   }
-  
+});
+
+$(document).on('keyup', function(evt){
   if (evt.keyCode == 27) {
-    var target = $(document).find(".syllabus-gui-window:focus");
-    $(target).attr('hidden', true);
+    console.log("ESC");
+    var target = $(document).find(".syllabus-gui-window");
+    $(target).each(function(){
+      $(this).attr('hidden', true);
+    });
   }
 });
 
