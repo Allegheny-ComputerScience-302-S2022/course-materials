@@ -80,6 +80,7 @@ Violating contract provisions below will result in grade penalties specified in 
 ### The "Rules Rule"
 
 * Convenants in this contract may be changed following an open course discussion about the proposed change(s)
+  * These changes should be submitted as `Issues` on this course repository
 * Any changes will then be put to a vote. If a vote succeeds with a majority (50% + 1) outcome supporting the measure(s) proposed, the change will be made 
 
   * This applies to all portions of the contract _except_ for the "Basic Grade" and this rule ("Rules Rule")
@@ -203,7 +204,6 @@ For all group assignments, members will fill out a post-assignment assessment to
   * If you exhaust peer assistance, it's certain that your group feels the way you do; this is the time to get the attention of the instructor and/or TLs
 * Be nonjudgemental of others opinions
   * Often, the idea that feels the most radical can (at the very least) pivot your thinking toward a correct line of inquiry
-
 * _Do_ assist others in your group, but _may not type directly on their keyboards_
 * _Do_ use resources like [StackOverflow](https://stackoverflow.com/)
   * _Do Not_ copy/paste code directly from these resources; this, as many of you recognize, is a violation of the Honor Code
