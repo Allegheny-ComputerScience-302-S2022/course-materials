@@ -115,7 +115,7 @@ The above statement, of course, also applies to online forums such as Stack Over
 
 ### Classroom ethics
 
-The discipline of computer science, like many others, encourages its members to act according to discipline-specific ethics. I encourage you to take time to review the Association for Computing Machinery (ACM) [Code of Ethics](https://www.acm.org/binaries/content/assets/about/acm-code-of-ethics-booklet.pdf).
+The discipline of computer science, like many others, encourages its members to act according to discipline-specific ethics. I encourage you to take time to review the Association for Computing Machinery (ACM) [Code of Ethics](https://www.acm.org/code-of-ethics).
 
 ### Seeking assistance
 
