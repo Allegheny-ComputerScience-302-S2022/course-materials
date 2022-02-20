@@ -73,6 +73,10 @@ $(".syllabus-icon-grid-entry").on('click',function(){
 $(document).on('keypress', function(evt) {
   if (evt.keyCode == 13){
     var target = $("#syllabus-icon-grid > div").find(".syllabus-icon-grid-entry-text:focus")[0];
+    if (!target) {
+      // Take care of draggables
+      target = $(document).find('.syllabus-icon-grid-entry-text:focus')[0];
+    }
     var grandparent = $(target).parent().parent();
     var action = grandparent.attr('data-action-item');
     console.log(target + " means " + action);
