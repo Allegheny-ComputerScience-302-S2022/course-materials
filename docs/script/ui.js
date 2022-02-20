@@ -124,37 +124,6 @@ $.ajax({
     success: function(data) {
       var elem = $('#syllabus-contract-window').find('.syllabus-gui-window-content');
       $(elem).html(remark.render(data));
-      
-      // Not great, but it works
-      
-      locs = {
-        "CODE_OF_CONDUCT.md": function(){
-          $("#syllabus-contract-window").css('display','block');
-          $("#syllabus-contract-window").focus();
-        },
-        "schedule.md": function(){
-          $("#syllabus-schedule-window").css('display','block');
-          $("#syllabus-schedule-window").focus();
-        },
-        "index.html#office-hours": function(){
-          $("#syllabus-office-hours-window").css('display', 'block');
-          $("#syllabus-office-hours-window").focus();
-        }
-      }
-      
-      var links = $(document).find('a');
-      for(var i=0; i < links.length; i++){
-        
-        var href = links[i].href;
-        var parts = href.split("/")
-        var anchor = parts[parts.length - 1];
-        console.log(anchor);
-        if ( anchor.startsWith("index.html") || anchor.endsWith(".md") ){
-          links[i].href = "#";
-          $(links[i]).on('click',locs[anchor]);
-        }
-      }
-    
     }
 });
 
@@ -163,3 +132,38 @@ var version = modified.replace(new RegExp("[\/: ]", "g"), ".");
 
 $("footer").html("ProfOS " + version);
 
+
+locs = {
+  "CODE_OF_CONDUCT.md": function(){
+    $("#syllabus-contract-window").css('display','block');
+    $("#syllabus-contract-window").focus();
+  },
+  "schedule.md": function(){
+    $("#syllabus-schedule-window").css('display','block');
+    $("#syllabus-schedule-window").focus();
+  },
+  "index.html#office-hours": function(){
+    $("#syllabus-office-hours-window").css('display', 'block');
+    $("#syllabus-office-hours-window").focus();
+  }
+}
+
+window.setTimeout(function(){
+
+  var links = $(document).find('a');
+  
+  for(var i=0; i < links.length; i++){
+
+    var href = links[i].href;
+    var parts = href.split("/")
+    var anchor = parts[parts.length - 1];
+    
+    console.log(anchor);
+    
+    if ( anchor.startsWith("index.html") || anchor.endsWith(".md") ){
+      links[i].href = "#";
+      $(links[i]).on('click',locs[anchor]);
+    }
+ 
+  }
+},100);
