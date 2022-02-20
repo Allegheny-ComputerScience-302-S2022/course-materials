@@ -90,6 +90,11 @@ $(document).on('keypress', function(evt) {
       $(elem).attr('hidden', false);
     }
   }
+  
+  if (evt.keyCode == 27) {
+    var target = $(document).find(".syllabus-gui-window:focus");
+    $(target).attr('hidden', true);
+  }
 });
 
 // Clicking anywhere not on an entry should release all entries
