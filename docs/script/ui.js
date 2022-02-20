@@ -134,19 +134,19 @@ $("footer").html("ProfOS " + version);
 
 locs = {
   "CODE_OF_CONDUCT.md": function(){
-    $("#syllabus-contract-window").css('display','block');
+    $("#syllabus-contract-window").attr('hidden', false);
     $("#syllabus-contract-window").focus();
   },
   "#Grading": function(){
-    $("#syllabus-contract-window").css('display','block');
+    $("#syllabus-contract-window").attr('hidden', false);
     $("#syllabus-contract-window").focus();
   },
   "schedule.md": function(){
-    $("#syllabus-schedule-window").css('display','block');
+    $("#syllabus-schedule-window").attr('hidden', false);
     $("#syllabus-schedule-window").focus();
   },
   "#office-hours": function(){
-    $("#syllabus-office-hours-window").css('display', 'block');
+    $("#syllabus-office-hours-window").attr('hidden', false);
     $("#syllabus-office-hours-window").focus();
   }
 }
@@ -170,4 +170,5 @@ window.setTimeout(function(){
     }
  
   }
-},100);
+  
+},200);
