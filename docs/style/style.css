@@ -99,12 +99,12 @@ td:nth-child(1){
   color: #feda48;
 }
 
-#syllabus-contract-window a{
+#syllabus-contract-window a, #syllabus-document-window a {
   color: blue;
   border-bottom: blue dashed 2px;
 }
 
-#syllabus-contract-window a:visited{
+#syllabus-contract-window a:visited, #syllabus-document-window a:visited {
   color: blue;
 }
 
