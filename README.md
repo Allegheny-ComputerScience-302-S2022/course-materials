@@ -93,7 +93,7 @@ This project offers students the opportunity to develop a realized version of an
 
 ### Course preparation
 
-I expect students to arrive to class prepared. Here, "prepared" means having completed reading assignments, compiled questions, and being ready to engage thoughtfully with course material. In order to assist students' preparedness efforts, I will provide a [schedule](https://cmpsc302.chompe.rs) with assignments and will accompany all videos with a copy of any slides used in class proceedings or recorded media.
+I expect students to arrive to class prepared. Here, "prepared" means having completed reading assignments, compiled questions, and being ready to engage thoughtfully with course material. In order to assist students' preparedness efforts, I will provide a [schedule](docs/schedule.md) with assignments and will accompany all videos with a copy of any slides used in class proceedings or recorded media.
 
 ### Allegheny College Statement of Community
 
