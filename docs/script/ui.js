@@ -34,7 +34,7 @@ $("#course-tos-bug").draggable({
 
 // Activate window closure
 $(".syllabus-gui-window-title-controls").on('click',function(){
-  $(this).parent().parent().css('display','none');
+  $(this).parent().parent().attr('hidden', true);
 });
 
 // Single click should visually select an item
@@ -61,7 +61,7 @@ $(".syllabus-icon-grid-entry").on('click',function(){
         window.open("https://github.com/Allegheny-ComputerScience-302-S2022/course-materials",'_blank');
       } else {
         var elem = "#syllabus-"+action+"-window";
-        $(elem).css('display','block');
+        $(elem).attr('hidden', false);
       }
     } else {
       // Is not yet double click
