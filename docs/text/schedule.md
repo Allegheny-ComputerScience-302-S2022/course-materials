@@ -13,5 +13,26 @@
 
 ### General resources
 
-* [Interactive HTML Cheat Sheet](https://htmlcheatsheet.com/)
-* [Interactive CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
+| URL |
+|:----|
+|[Interactive HTML Cheat Sheet](https://htmlcheatsheet.com/)    |
+|[Interactive CSS Cheat Sheet](https://htmlcheatsheet.com/css/) |
+
+## Web 2.0
+
+|Date                 |Topic                      |Assignment                      |Reading(s)                   |
+|:--------------------|:--------------------------|:-------------------------------|:----------------------------|
+|28 March - 1 April   |Javascript                 |                                |                             |
+|4 April - 8 April    |Javascript                 |                                |                             |
+|11 April - 15 April  |Crash course: "Front" vs. "Back" end |                      |                             |
+|18 April - 22 April  |node.js                    |                                |                             |
+|25 April - 29 April  |APIs                       |                                |                             |
+|                     |                           |Project assigned                |                             |
+
+## Web 3.0
+
+|Date                 |Topic                      |Assignment                      |Reading(s)                   |
+|:--------------------|:--------------------------|:-------------------------------|:----------------------------|
+|2 May - 6 May        |Crash course: Decentralized web |                           |                             |
+|11 May - 13 May      |Project work time          |                                |                             |
+|18 May               |                           |Project due                     |                             |
