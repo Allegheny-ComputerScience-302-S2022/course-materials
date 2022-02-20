@@ -160,7 +160,7 @@ window.setTimeout(function(){
     
     console.log(anchor);
     
-    if ( anchor.startsWith("index.html") || anchor.endsWith(".md") ){
+    if ( anchor.startsWith("#") || anchor.endsWith(".md") ){
       links[i].href = "#";
       $(links[i]).on('click',locs[anchor]);
     }
