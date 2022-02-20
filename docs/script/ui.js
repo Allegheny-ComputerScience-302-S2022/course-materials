@@ -161,7 +161,7 @@ $.ajax({
 var modified = document.lastModified;
 var version = modified.replace(new RegExp("[\/: ]", "g"), ".");
 
-$("footer").html("ProfOS " + version);
+$("footer").html("ProfOS ." + version);
 
 
 locs = {

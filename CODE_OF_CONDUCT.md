@@ -1,4 +1,4 @@
-# CMPSC 302 M1 Course Contract
+# CMPSC 302, Spring 2022 Course Contract
 
 ## A word from the instructor
 
