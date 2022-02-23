@@ -65,8 +65,8 @@ $(".syllabus-icon-grid-entry").on('click',function(){
       } else if (action == "revise") {
         window.open("https://github.com/Allegheny-ComputerScience-302-S2022/course-materials",'_blank');
       } else if (action == "cats") {
-        var x = Math.floor(200 + Math.random() * 600);
-        var y = Math.floor(200 + Math.random() * 600);
+        var x = Math.floor(250 + Math.random() * 600);
+        var y = Math.floor(250 + Math.random() * 600);
         var elem = "#syllabus-cats-window";
         var url = "http://placekitten.com/"+x+"/"+x;
         var content = $(elem).find('.syllabus-gui-window-content');
