@@ -79,6 +79,7 @@ blockquote {
   left: 0;
   font-family: lores-21-serif, sans-serif;
 }
+
 .syllabus-gui-window{
   width: 50%;
   height: auto;  
@@ -224,6 +225,17 @@ blockquote {
   color: #fff;
   padding: 1rem;
   z-index:8;
+}
+
+#course-lolcats{
+  font-family: lores-15-bold-alt-oakland, fixed-width;
+  position: fixed;
+  top: 0%;
+  left: 40%;
+  height: auto;
+  color: #fff;
+  padding: 1rem;
+  z-index:9;
 }
 
 .syllabus-gui-free-range-icon:hover{

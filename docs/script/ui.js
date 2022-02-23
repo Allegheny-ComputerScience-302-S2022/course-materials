@@ -32,6 +32,11 @@ $("#course-tos-bug").draggable({
   handle: ".syllabus-icon-grid-entry"
 });
 
+$("#course-lolcats").draggable({
+  cursor: "move",
+  handle: ".syllabus-icon-grid-entry"
+});
+
 // Activate window closure
 $(".syllabus-gui-window-title-controls").on('click',function(){
   $(this).parent().parent().attr('hidden', true);
@@ -59,11 +64,29 @@ $(".syllabus-icon-grid-entry").on('click',function(){
         window.open("https://github.com/Allegheny-ComputerScience-302-S2022",'_blank');
       } else if (action == "revise") {
         window.open("https://github.com/Allegheny-ComputerScience-302-S2022/course-materials",'_blank');
+      } else if (action == "cats") {
+        var x = Math.floor(200 + Math.random() * 600);
+        var y = Math.floor(200 + Math.random() * 600);
+        var elem = "#syllabus-cats-window";
+        var url = "http://placekitten.com/"+x+"/"+x;
+        var content = $(elem).find('.syllabus-gui-window-content');
+        $(elem).find('.syllabus-gui-window-content').html("<img src = \"" + url + "\">");
+        $(elem).attr('hidden', false);
+        $(elem).css('top', Math.random() * 50 + "%");
+        $(elem).css('left', Math.random() * 50 + "%");
+        $(elem).css('width', (x+10) + "px");
+        $(content).css('padding', "5px");
+        $(content).css('width', (x+10) + "px");
+        $(content).css('overflow-x', 'hidden');
+        $(content).css('overflow-y', 'hidden');
+        $(content).css('width', "inherit");
+        $(content).css('height', "inherit");
+        $(elem).css('resize', 'none');
       } else {
         var elem = "#syllabus-"+action+"-window";
         $(elem).attr('hidden', false);
-        $(elem).css('top',Math.random() * 50 + "%");
-        $(elem).css('left',Math.random() * 50 + "%");
+        $(elem).css('top', Math.random() * 50 + "%");
+        $(elem).css('left', Math.random() * 50 + "%");
       }
     } else {
       // Is not yet double click
@@ -190,21 +213,21 @@ locs = {
 window.setTimeout(function(){
 
   var links = $(document).find('a');
-  
+
   for(var i=0; i < links.length; i++){
 
     var href = links[i].href;
     var parts = href.split("/")
     var anchor = parts[parts.length - 1];
-    
+
     console.log(anchor);
-    
+
     if ( anchor.startsWith("#") || anchor.endsWith(".md") ){
       links[i].href = "#";
       $(links[i]).attr('target','_self');
       $(links[i]).on('click',locs[anchor]);
     }
- 
+
   }
-  
+
 },500);
