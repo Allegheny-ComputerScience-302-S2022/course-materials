@@ -4,7 +4,7 @@
 
 |Date                 |Topic                      |Assignment                                    |
 |:--------------------|:--------------------------|:---------------------------------------------|
-|21 - 25 February     |Crash course: the Web      |Setting up platforms; exploring web documents |
+|21 - 25 February     |Crash course: the Web      |[Setting up platforms; exploring web documents](https://classroom.github.com/a/lB48InIM) |
 |[Submarine Cable Map](https://www.submarinecablemap.com/) | | |
 |[What is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/) | | |
 |[Kazakhstan’s Internet Shutdown Offers Lessons for Russia-Ukraine Crisis](https://www.nytimes.com/2022/02/18/technology/kazakhstan-internet-russia-ukraine.html) | | |
