@@ -9,7 +9,8 @@
 |[What is DNS?](https://www.cloudflare.com/learning/dns/what-is-dns/) | | |
 |[Kazakhstan’s Internet Shutdown Offers Lessons for Russia-Ukraine Crisis](https://www.nytimes.com/2022/02/18/technology/kazakhstan-internet-russia-ukraine.html) | | |
 |[World Wide Web](http://info.cern.ch/hypertext/WWW/TheProject.html) | | |
-|28 Feburary - 4 March|HTML                       |The Terrible, Horrible, No Good, Wonderful Website |
+|28 Feburary - 4 March|HTML                       |[Exercises](https://classroom.github.com/a/WrtvqniF) |
+|                     |                           |The Terrible, Horrible, No Good, Wonderful Website |
 |7 - 11 March         |HTML                       |The Terrible, Horrible, No Good, Wonderful Website |
 |[The Geocities Gallery](https://geocities.restorativland.org/) | | | 
 |[Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) | | |
