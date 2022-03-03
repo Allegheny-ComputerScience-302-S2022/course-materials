@@ -60,6 +60,7 @@ $(".syllabus-icon-grid-entry").on('click',function(){
   } else {
     if(((new Date().getTime()) - delay) < 500 || deviceType() == "mobile"){
       // Is double click
+      // TODO: Fix mobile single click
       if (action == "github") {
         window.open("https://github.com/Allegheny-ComputerScience-302-S2022",'_blank');
       } else if (action == "revise") {
