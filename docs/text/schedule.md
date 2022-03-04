@@ -10,9 +10,10 @@
 |[Kazakhstan’s Internet Shutdown Offers Lessons for Russia-Ukraine Crisis](https://www.nytimes.com/2022/02/18/technology/kazakhstan-internet-russia-ukraine.html) | | |
 |[World Wide Web](http://info.cern.ch/hypertext/WWW/TheProject.html) | | |
 |28 Feburary - 4 March|HTML                       |[Exercises](https://classroom.github.com/a/WrtvqniF) |
-|                     |                           |The Terrible, Horrible, No Good, Wonderful Website |
-|7 - 11 March         |HTML                       |The Terrible, Horrible, No Good, Wonderful Website |
-|[The Geocities Gallery](https://geocities.restorativland.org/) | | | 
+|                     |                           |[Lab](https://classroom.github.com/a/RNWKsTFI) |
+|[HTML DOM Viewer](https://0xedward.github.io/dom-visualizer/) |||
+|[W3C Validator](https://validator.w3.org/)   |||
+|7 - 11 March         |HTML & CSS                      |The Terrible, Horrible, No Good, Wonderful Website |
 |[Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) | | |
 |[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) | | |
 |14 - 18 March        |CSS                        |The Style Book                                     |
