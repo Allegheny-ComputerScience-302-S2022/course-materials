@@ -60,10 +60,13 @@ $(".syllabus-icon-grid-entry").on('click',function(){
   } else {
     if(((new Date().getTime()) - delay) < 500 || deviceType() == "mobile"){
       // Is double click
+      // TODO: Fix mobile single click
       if (action == "github") {
         window.open("https://github.com/Allegheny-ComputerScience-302-S2022",'_blank');
       } else if (action == "revise") {
         window.open("https://github.com/Allegheny-ComputerScience-302-S2022/course-materials",'_blank');
+      } else if (action == "slides") {
+        window.open("https://github.com/Allegheny-ComputerScience-302-S2022/course-materials/tree/main/slides","_blank");
       } else if (action == "cats") {
         var x = Math.floor(250 + Math.random() * 600);
         var y = Math.floor(250 + Math.random() * 600);
