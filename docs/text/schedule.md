@@ -10,12 +10,12 @@
 |[Kazakhstan’s Internet Shutdown Offers Lessons for Russia-Ukraine Crisis](https://www.nytimes.com/2022/02/18/technology/kazakhstan-internet-russia-ukraine.html) | | |
 |[World Wide Web](http://info.cern.ch/hypertext/WWW/TheProject.html) | | |
 |28 Feburary - 4 March|HTML                       |[Exercises](https://classroom.github.com/a/WrtvqniF) |
-|                     |                           |The Terrible, Horrible, No Good, Wonderful Website |
-|7 - 11 March         |HTML                       |The Terrible, Horrible, No Good, Wonderful Website |
-|[The Geocities Gallery](https://geocities.restorativland.org/) | | | 
+|                     |                           |[Lab](https://classroom.github.com/a/RNWKsTFI) |
+|[HTML Validation](https://validator.w3.org) | | |
+|7 - 11 March         |HTML and CSS               |The Style Book |
+|14 - 18 March        |CSS (continued)                        |The Style Book |
 |[Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) | | |
 |[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) | | |
-|14 - 18 March        |CSS                        |The Style Book                                     |
 |[CSS Zen Garden](http://www.csszengarden.com/) | | |
 |[Effective Visual Communication for Graphical User Interfaces](http://web.cs.wpi.edu/~matt/courses/cs563/talks/smartin/int_design.html) | | |
 |[Using Light, Color and Contrast Effectively in UI Design](https://usabilitypost.com/2008/08/14/using-light-color-and-contrast-effectively-in-ui-design/)    | | |
