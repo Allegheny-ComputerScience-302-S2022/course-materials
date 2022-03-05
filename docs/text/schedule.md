@@ -11,9 +11,9 @@
 |[World Wide Web](http://info.cern.ch/hypertext/WWW/TheProject.html) | | |
 |28 Feburary - 4 March|HTML                       |[Exercises](https://classroom.github.com/a/WrtvqniF) |
 |                     |                           |[Lab](https://classroom.github.com/a/RNWKsTFI) |
-|[HTML Validation](https://validator.w3.org) | | |
-|7 - 11 March         |HTML and CSS               |The Style Book |
-|14 - 18 March        |CSS (continued)                        |The Style Book |
+|[HTML DOM Viewer](https://0xedward.github.io/dom-visualizer/) |||
+|[W3C Validator](https://validator.w3.org/)   |||
+|7 - 11 March         |HTML & CSS                      |The Terrible, Horrible, No Good, Wonderful Website |
 |[Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) | | |
 |[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) | | |
 |[CSS Zen Garden](http://www.csszengarden.com/) | | |
