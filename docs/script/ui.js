@@ -79,7 +79,6 @@ $(".syllabus-icon-grid-entry").on('click',function(){
         $(elem).css('left', Math.random() * 50 + "%");
         $(elem).css('width', (x+10) + "px");
         $(elem).css('max-height', 'inherit');
-        $(content).css('padding', "5px");
         $(content).css('width', (x+10) + "px");
         $(content).css('overflow-x', 'hidden');
         $(content).css('overflow-y', 'hidden');

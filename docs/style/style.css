@@ -126,20 +126,19 @@ blockquote {
   font-family: lores-15-bold-alt-oakland, fixed-width;
   width: inherit;
   max-height: 40px;
-  min-height: 40px;
   color: #fff;
-  background-color: #002144;;
-  border: 5px solid #fff;
-  padding: 5px;
+  background-color: #007bc2;
   position: fixed;
 }
 .syllabus-gui-window-title-text{
-  float: left;
+  position: absolute;
+  transform: translateY(50%);
+  margin-left: 1%;
 }
 .syllabus-gui-window-title-controls{
   float:right;
-  margin-top: -17px;
   font-size: 25pt;
+  margin-right: 1%;
 }
 .syllabus-gui-window-title-controls:hover{
   cursor: pointer;
@@ -238,8 +237,20 @@ blockquote {
   z-index:9;
 }
 
+#syllabus-cats-window {
+  overflow: hidden;
+}
+
+#syllabus-cats-window .syllabus-gui-window-content {
+  padding: 0px;
+  padding-top: 40px;
+  padding-left:5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
 .syllabus-gui-free-range-icon:hover{
-  cursor: pointer;
+   cursor: pointer;
 }
 
 @media only screen and (max-width: 1024px) {
