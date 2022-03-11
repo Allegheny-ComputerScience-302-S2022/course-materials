@@ -14,13 +14,13 @@
 |[HTML DOM Viewer](https://0xedward.github.io/dom-visualizer/) |||
 |[W3C Validator](https://validator.w3.org/)   |||
 |7 - 11 March         |HTML & CSS                      |[Exercises](https://classroom.github.com/a/u6XlffhR)|
-|                     |                                |Lab                                     |
+|                     |                                |[Lab](https://classroom.github.com/a/_MCVqzRK)                                     |
 |[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) |
-|[Adobe Color](https://color.adobe.com/) |
+|[Adobe Color](https://color.adobe.com/) |||
 |[Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) |
-|[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) |
-|[Effective Visual Communication for Graphical User Interfaces](http://web.cs.wpi.edu/~matt/courses/cs563/talks/smartin/int_design.html) |
-|[Using Light, Color and Contrast Effectively in UI Design](https://usabilitypost.com/2008/08/14/using-light-color-and-contrast-effectively-in-ui-design/)    |
+|[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) |||
+|[Effective Visual Communication for Graphical User Interfaces](http://web.cs.wpi.edu/~matt/courses/cs563/talks/smartin/int_design.html) |||
+|[Using Light, Color and Contrast Effectively in UI Design](https://usabilitypost.com/2008/08/14/using-light-color-and-contrast-effectively-in-ui-design/)    |||
 
 ### General resources
 
