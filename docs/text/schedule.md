@@ -15,6 +15,7 @@
 |[W3C Validator](https://validator.w3.org/)   |||
 |7 - 11 March         |HTML & CSS                      |[Exercises](https://classroom.github.com/a/u6XlffhR)|
 |                     |                                |[Lab](https://classroom.github.com/a/_MCVqzRK)                                     |
+|13 - 18 March        |HTML & CSS                      |[Exercises](https://classroom.github.com/a/gGSuWez-)|
 |[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) |||
 |[Adobe Color](https://color.adobe.com/) |||
 |[Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/) |||
