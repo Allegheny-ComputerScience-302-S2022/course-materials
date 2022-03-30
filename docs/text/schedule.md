@@ -34,8 +34,8 @@
 
 |Date                 |Topic                      |Assignment                      |
 |:--------------------|:--------------------------|:-------------------------------|
-|28 March - 1 April   |Javascript                 |Simon Says                      |
-|4 - 8 April          |Javascript                 |Simon Says                      |
+|28 March - 1 April   |Javascript                 |[Exercise/Lab](https://classroom.github.com/a/n-zvPRZX)|
+|4 - 8 April          |Javascript                 |[Exercise/Lab](https://classroom.github.com/a/n-zvPRZX)|
 |11 - 15 April        |Crash course: "Front" vs. "Back" end |ChatterBox            |
 |18 - 22 April        |node.js                    |ChatterBox                      |
 |25 - 29 April        |APIs                       |Cats vs. Pokémans               |
