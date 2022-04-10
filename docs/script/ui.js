@@ -37,6 +37,11 @@ $("#course-lolcats").draggable({
   handle: ".syllabus-icon-grid-entry"
 });
 
+#("#course-chat").draggable({
+  cursor: "move",
+  handle: ".syllabus-icon-grid-entry"
+});
+
 // Activate window closure
 $(".syllabus-gui-window-title-controls").on('click',function(){
   $(this).parent().parent().attr('hidden', true);

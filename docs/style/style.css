@@ -241,6 +241,17 @@ ul {
   z-index:9;
 }
 
+#course-chat {
+  font-family: lores-15-bold-alt-oakland, fixed-width;
+  position: fixed;
+  top: 0%;
+  left: 60%;
+  height: auto;
+  color: #fff;
+  padding: 1rem;
+  z-index:10;
+}
+
 #syllabus-cats-window {
   overflow: hidden;
 }
