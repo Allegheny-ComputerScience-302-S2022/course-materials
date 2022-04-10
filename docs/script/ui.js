@@ -37,7 +37,7 @@ $("#course-lolcats").draggable({
   handle: ".syllabus-icon-grid-entry"
 });
 
-#("#course-chat").draggable({
+$("#course-chat").draggable({
   cursor: "move",
   handle: ".syllabus-icon-grid-entry"
 });
