@@ -36,8 +36,8 @@
 |:--------------------|:--------------------------|:-------------------------------|
 |28 March - 1 April   |Javascript                 |[Exercise/Lab](https://classroom.github.com/a/n-zvPRZX)|
 |4 - 8 April          |Javascript                 |[Exercise/Lab](https://classroom.github.com/a/n-zvPRZX)|
-|11 - 15 April        |Crash course: "Front" vs. "Back" end |[Exercise/Lab](git@github.com:Allegheny-ComputerScience-302-S2022/course-materials.git)           |
-|18 - 22 April        |node.js                    |[Exercise/Lab](git@github.com:Allegheny-ComputerScience-302-S2022/course-materials.git)                      |
+|11 - 15 April        |Crash course: "Front" vs. "Back" end |[Exercise/Lab](https://classroom.github.com/a/AQ2-eAdm)           |
+|18 - 22 April        |node.js                    |[Exercise/Lab](https://classroom.github.com/a/AQ2-eAdm)                      |
 |25 - 29 April        |APIs                       |Cats vs. Pokémans               |
 |                     |                           |Project assigned                |
 
