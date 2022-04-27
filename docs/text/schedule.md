@@ -38,8 +38,6 @@
 |4 - 8 April          |Javascript                 |[Exercise/Lab](https://classroom.github.com/a/n-zvPRZX)|
 |11 - 15 April        |Crash course: "Front" vs. "Back" end |[Exercise/Lab](https://classroom.github.com/a/AQ2-eAdm)           |
 |18 - 22 April        |node.js                    |[Exercise/Lab](https://classroom.github.com/a/AQ2-eAdm)                      |
-|25 - 29 April        |APIs                       |Cats vs. Pokémans               |
-|                     |                           |Project assigned                |
 
 ### General resources
 
@@ -47,13 +45,12 @@
 |:----|
 |[Interactive JavaScript Cheat Sheet](https://htmlcheatsheet.com/js/) |
 |[HTML Colors](https://html-color.codes/) |
-|[Pokédex API](https://pokedevs.gitbook.io/pokedex/) |
-|[Place Kitten](https://placekitten.com/)            |
 
 ## Web 3.0
 
 |Date                 |Topic                      |Assignment                      |
 |:--------------------|:--------------------------|:-------------------------------|
-|2 - 6 May            |Crash course:  the Decentralized Web |                      |
+|25 - 29 April        |Crash course: the Decentralized Web |[King of the Hill](https://koth.cmpsc302.chompe.rs) |
+|2 - 6 May            |Project work time          |                                |
 |11 - 13 May          |Project work time          |                                |
 |18 May               |                           |Project due                     |
