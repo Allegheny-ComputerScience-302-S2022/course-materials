@@ -51,6 +51,7 @@
 |Date                 |Topic                      |Assignment                      |
 |:--------------------|:--------------------------|:-------------------------------|
 |25 - 29 April        |Crash course: the Decentralized Web |[King of the Hill](https://koth.cmpsc302.chompe.rs) |
+|                     |                           |[Course project](https://classroom.github.com/a/T7q5azN_)    |
 |2 - 6 May            |Project work time          |                                |
 |11 - 13 May          |Project work time          |                                |
 |18 May               |                           |Project due                     |
