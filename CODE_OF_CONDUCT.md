@@ -43,7 +43,7 @@ For all of you, the terrain of this journey will be tough in different ways. It'
 
 #### Grades higher than the Basic Grade
 
-Assignments which achieve `100%` of all checks completed by the deadline will be awarded a `+` mark. Based on the number of `+` marks awarded, the instructor may award students grades higher than the Basic Grade.
+Assignments which achieve `100%` of all checks completed by the deadline will be awarded a `✅` mark. Based on the number of `✅` marks awarded, the instructor may award students grades higher than the Basic Grade.
 
 All stipulations below _do not factor in_ the course project.
 
@@ -53,7 +53,7 @@ All stipulations below _do not factor in_ the course project.
 
 * A student who:
    * Completes all assignments in full and on time
-   * Earns `5` or more `+` marks across all assignments
+   * Earns `5` or more `✅` marks across all assignments
    
 will receive an `A` in the course.
 
@@ -61,7 +61,7 @@ will receive an `A` in the course.
 
 * A student who:
    * Completes all assignments in full and on time
-   * Has `3` or more `+` marks awarded across all assignments
+   * Has `3` or more `✅` marks awarded across all assignments
    
 will receive an `A` in the course.
 
@@ -69,7 +69,7 @@ will receive an `A` in the course.
 
 * A student who:
    * Completes all assignments in full and on time
-   * Has `2` or more `+` marks awarded across _all assignments_
+   * Has `2` or more `✅` marks awarded across _all assignments_
    
 will receive a `B+` in the course.
 
